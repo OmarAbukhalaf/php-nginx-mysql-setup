@@ -1,0 +1,10 @@
+CREATE DATABASE mydatabase;
+USE mydatabase;
+
+CREATE TABLE USERS(
+id INT PRIMARY KEY,
+username VARCHAR(30) NOT NULL,
+email VARCHAR(50) NOT NULL
+);
+
+INSERT INTO USERS (id,username,email) VALUES (1,'omarabk','omar@gmail.com'), (2,'ahmad','ahmad@gmail.com'),(3,'ali','ali@gmail.com'),(4,'mohammad','mohammad@gmail.com');
